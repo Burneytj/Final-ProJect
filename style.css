@@ -1,0 +1,85 @@
+
+.wrapper {
+  margin: 0 auto;
+  width: 700px;
+  height: 800px;
+  background-color: white;
+}
+
+header {
+  padding: 0px 4px;
+}
+
+header h1 {
+  font-size: 90px;
+  margin-left: 288px;
+}
+
+header h3 {
+  margin-left: 350px;
+  margin-top: 30px;
+}
+
+header p {
+  margin-left: 580px;
+}
+
+body {
+  background-image: url(Images/Hometown.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  padding: 15px;
+}
+
+.content {
+  display: grid;
+  padding: 0px 18px;
+  font-size: 13px;
+}
+
+.story {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.creator {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+}
+
+nav {
+  margin: 20px;
+  padding: 0px 50px;
+}
+
+nav a {
+  color: rgb(255, 220, 21);
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: darkgray;
+  height: 6em;
+  margin-top: 113px;
+}
+
+footer ul {
+  list-style-type: none;
+}
