@@ -1,9 +1,11 @@
 
 .wrapper {
   margin: 0 auto;
-  width: 700px;
-
-  background-color: white;
+  width: 745px;
+  background-color: rgb(255, 255, 255);
+  border-left: 4px solid #fdfdfd;
+  border-right: 4px solid #fdfdfd;
+  border-bottom: 4px solid #fdfdfd;
 }
 
 /* Header Section
@@ -15,22 +17,88 @@ header {
   background-image: url(Images/Deltarune.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 50px;
-  height: 155px;
+  background-position: 50px -1px;
+  height: 160px;
+  margin-bottom: 23px;
 }
 
-header h1 {
-  font-size: 550%;
-  padding: .5rem;
-  margin-right: 50px;
+header p {
+   font-size: 610%;
+   margin-bottom: 0.2rem;
+   margin-right: 1.5rem;
+   padding-top: 10px;
+   letter-spacing: 10px;
 }
 
-
-header h3 {
-  margin-right: 4rem;
+header blockquote {
+  font-size: 90%;
+  font-weight: bold;
+  margin-right: 2.5rem;
 }
 
-/* Body Section
+/* Navigation Section
+====================*/
+nav ul {
+  display: flex;
+  justify-content: stretch;
+  margin-top: 1.2rem;
+  list-style-type: none;
+}
+
+nav a {
+  color: rgb(251, 227, 92);
+  transition: all 0.35s ease;
+  text-align: center;
+}
+
+nav a:hover {
+  border: 3.5px solid #f0ed5b;
+  border-radius: 2px;
+  color: #f0ed5b;
+  text-align: center;
+  font-size: 105%;
+}
+
+.home {
+  padding: 1.2rem 3.3rem 1.2rem 3.3rem;
+  background-color: black;
+  color: white;
+  border: 3.5px solid #fdfdfd;
+}
+
+.kris {
+  padding: 1.2rem 3.3rem 1.2rem 3.3rem;
+  background-color: black;
+  color: white;
+  border: 3.5px solid #fdfdfd;
+}
+
+.susie {
+  padding: 1.2rem 3.3rem 1.2rem 3.3rem;
+  background-color: black;
+  color: white;
+  border: 3.5px solid #fdfdfd;
+}
+
+.ralsei {
+  padding: 1.2rem 3.3rem 1.2rem 3.3rem;
+  background-color: black;
+  color: white;
+  border: 3.5px solid #fdfdfd;
+}
+
+.noelle {
+  padding: 1.2rem 3.3rem 1.2rem 3.3rem;
+  background-color: black;
+  color: white;
+  border: 3.5px solid #fdfdfd;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Main Section
 ====================*/
 body {
   background-image: url(Images/Hometown.png);
@@ -38,6 +106,104 @@ body {
   background-size: cover;
 }
 
+.content {
+  margin: 3.4rem .6rem
+}
+
+.story {
+  margin-left: 280px;
+}
+
+.story h2 {
+  font-size: 200%;
+  padding-bottom: 6px;
+  color: #288f3a;
+}
+
+.story p {
+  font-size: 14.5px;
+
+}
+
+.creator {
+  margin-top: 44px;
+  margin-right: 252px;
+}
+
+.creator h2 {
+  font-size: 200%;
+  padding-bottom: 6px;
+  color: #288f3a;
+}
+
 /* Image Section
 ===================*/
+.dr {
+  float: left;
+  width: 255px;
+  margin-top: 4px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  border: 4px solid #288f3a;
+}
 
+.toby {
+ float: right;
+ width: 230px;
+ margin-top: 30px ;
+ border: 4px solid #288f3a;
+}
+
+.pic {
+  width: 140px;
+  margin-right: 16px;
+}
+
+/* Footer Section
+===================*/
+
+footer {
+  background-color: black;
+  margin-top: auto;
+ 
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+footer a {
+  color: white;
+  transition: all 0.3s ease;
+  margin-left: 120px;
+}
+
+footer a:hover {
+  color: #f0ed5b;
+  font-size: 110%;
+}
+
+/* Heroes Section
+===================*/
+
+.d {
+  background-image: url(Images/castletown.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  display: flex;
+  margin: 3.4rem .6rem
+}
+
+.description {
+
+}
+
+/* Media Queries
+===================*/
