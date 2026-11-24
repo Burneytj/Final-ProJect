@@ -14,7 +14,7 @@ header {
   text-align: right;
   color: white;
   background-color: black;
-  background-image: url(Images/Deltarune.png);
+  background-image: url(images/Deltarune.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50px -1px;
@@ -101,7 +101,7 @@ a {
 /* Main Section
 ====================*/
 body {
-  background-image: url(Images/Hometown.png);
+  background-image: url(images/Hometown.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -191,7 +191,7 @@ footer a:hover {
 ===================*/
 
 .d {
-  background-image: url(Images/castletown.png);
+  background-image: url(images/castletown.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
